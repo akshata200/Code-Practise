@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Code_Practise;
+using Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Design_Pattern;
 
 Console.WriteLine("Hello, World!");
 
@@ -10,7 +11,13 @@ swapObj.SwapUsingTemp();
 swapObj.SwapWithoutTemp();
 */
 
+/*
+ * *** Check if word/string is Palindrome
 Palindrome palindromeObj = new Palindrome("Madam");
 palindromeObj.CheckWordPalindrome();
+*/
+
+UserClient clientObj = new UserClient();
+clientObj.executeUserBuilderDesignPattern();
 
 Console.ReadKey();

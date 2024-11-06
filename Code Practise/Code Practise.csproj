@@ -11,7 +11,6 @@
   <ItemGroup>
     <Folder Include="Design Patterns\Creational Design Patterns\Factory Method Design Pattern\" />
     <Folder Include="Design Patterns\Creational Design Patterns\Abstract Factory Design Pattern\" />
-    <Folder Include="Design Patterns\Creational Design Patterns\Builder Design Pattern\" />
     <Folder Include="Design Patterns\Creational Design Patterns\Prototype Design Pattern\" />
     <Folder Include="Design Patterns\Creational Design Patterns\Singleton Design Pattern\" />
   </ItemGroup>
