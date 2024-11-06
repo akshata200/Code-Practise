@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Code_Practise</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Design Patterns\Creational Design Patterns\Factory Method Design Pattern\" />
+    <Folder Include="Design Patterns\Creational Design Patterns\Abstract Factory Design Pattern\" />
+    <Folder Include="Design Patterns\Creational Design Patterns\Builder Design Pattern\" />
+    <Folder Include="Design Patterns\Creational Design Patterns\Prototype Design Pattern\" />
+    <Folder Include="Design Patterns\Creational Design Patterns\Singleton Design Pattern\" />
+  </ItemGroup>
+
+</Project>
