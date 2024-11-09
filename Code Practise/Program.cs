@@ -17,7 +17,13 @@ Palindrome palindromeObj = new Palindrome("Madam");
 palindromeObj.CheckWordPalindrome();
 */
 
-UserClient clientObj = new UserClient();
+/*
+ * *** Builder Design Pattern
+BuilderUserClient clientObj = new BuilderUserClient();
 clientObj.executeUserBuilderDesignPattern();
+*/
+
+
+
 
 Console.ReadKey();

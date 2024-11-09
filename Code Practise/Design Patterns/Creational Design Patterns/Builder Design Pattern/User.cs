@@ -54,7 +54,7 @@ namespace Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Desig
 
             }
 
-            // method chaining
+            // method chaining : in every setter we are returing the object itself
             public UserBuilder setUsername(string username) 
             { 
                 this.username = username;

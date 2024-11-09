@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Design_Pattern
 {
-    internal class UserClient
+    internal class BuilderUserClient
     {
         /*
          * In Builder design pattern, we create an internal builder class which helps in creating instance/object for our actual class
