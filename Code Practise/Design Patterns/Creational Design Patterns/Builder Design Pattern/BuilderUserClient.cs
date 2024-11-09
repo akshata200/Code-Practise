@@ -20,7 +20,7 @@ namespace Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Desig
          * So here comes the builder class, if you see below client code example
          * you can see while creaing class object, I can give parameter in any sequence I want and no need to give all parameters
          */
-        public void executeUserBuilderDesignPattern()
+        public void ExecuteUserBuilderDesignPattern()
         {
             User userObj1 = new User.UserBuilder()
                                 .setUsername("Akshata")
