@@ -2,6 +2,7 @@
 using Code_Practise;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Design_Pattern;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Prototype_Design_Pattern;
+using Code_Practise.Design_Patterns.Creational_Design_Patterns.Singleton_Design_Pattern;
 
 Console.WriteLine("Hello, World!");
 
@@ -28,6 +29,13 @@ clientObj.ExecuteUserBuilderDesignPattern();
  * *** Prototype Design Pattern
 PrototypeClient prototypeClientObj = new PrototypeClient();
 prototypeClientObj.ExecutePrototypeDesignPattern();
+*/
+
+
+/*
+ * *** Singleton Design Pattern
+ * SingletonClient singletonClientObj = new SingletonClient();
+singletonClientObj.ExecuteSingletonDesignPattern();
 */
 
 
