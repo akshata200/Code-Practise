@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Code_Practise;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Design_Pattern;
+using Code_Practise.Design_Patterns.Creational_Design_Patterns.Factory_Method_Design_Pattern;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Prototype_Design_Pattern;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Singleton_Design_Pattern;
+using Code_Practise.Simple_Code;
 
 Console.WriteLine("Hello, World!");
 
@@ -38,6 +40,13 @@ prototypeClientObj.ExecutePrototypeDesignPattern();
 singletonClientObj.ExecuteSingletonDesignPattern();
 */
 
+/*
+ FactoryClientCode factoryClientCode = new FactoryClientCode();
+factoryClientCode.ExecuteFactoryDesignPattern();
+*/
+
+SeperateCharAndNum sepObj = new SeperateCharAndNum();
+sepObj.PrintStrings();
 
 
 

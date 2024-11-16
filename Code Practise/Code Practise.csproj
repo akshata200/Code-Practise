@@ -8,9 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Design Patterns\Creational Design Patterns\Factory Method Design Pattern\" />
-    <Folder Include="Design Patterns\Creational Design Patterns\Abstract Factory Design Pattern\" />
-  </ItemGroup>
-
 </Project>
