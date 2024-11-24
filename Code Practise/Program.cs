@@ -58,10 +58,22 @@ shnObj.SecondHighestNumberinList();
 shnObj.SecondHighestNuminArray();
 */
 
+/*
 ChildClass1 cc1 = new ChildClass1();
 //cc1.getClassDetails();
 //cc1.getParentInterfaceDetails();
 cc1.GetAbstractParentClassDetails();
+*/
+
+/*
+ReverseString rsObj = new ReverseString("Akshata");
+rsObj.ExecuteReverseString();
+rsObj.ExecuteReverseStringUsingCharArray();
+rsObj.ExecuteReverseStringUsingStringBuilder();
+*/
+
+WordInSentence wsObj = new WordInSentence();
+wsObj.ExecuteCheckWordInSentence();
 
 
 Console.ReadKey();
