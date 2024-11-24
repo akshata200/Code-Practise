@@ -72,8 +72,16 @@ rsObj.ExecuteReverseStringUsingCharArray();
 rsObj.ExecuteReverseStringUsingStringBuilder();
 */
 
+
+/*
 WordInSentence wsObj = new WordInSentence();
 wsObj.ExecuteCheckWordInSentence();
+*/
+
+CheckIfNumisPrime npObj = new CheckIfNumisPrime(); 
+npObj.ExecuteCheckIfNumIsPrime();
+
+
 
 
 Console.ReadKey();
