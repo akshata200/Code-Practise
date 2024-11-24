@@ -4,6 +4,7 @@ using Code_Practise.Design_Patterns.Creational_Design_Patterns.Builder_Design_Pa
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Factory_Method_Design_Pattern;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Prototype_Design_Pattern;
 using Code_Practise.Design_Patterns.Creational_Design_Patterns.Singleton_Design_Pattern;
+using Code_Practise.OOPS_Concept.Inheritance_Logic;
 using Code_Practise.Simple_Code;
 
 Console.WriteLine("Hello, World!");
@@ -36,18 +37,31 @@ prototypeClientObj.ExecutePrototypeDesignPattern();
 
 /*
  * *** Singleton Design Pattern
- * SingletonClient singletonClientObj = new SingletonClient();
+SingletonClient singletonClientObj = new SingletonClient();
 singletonClientObj.ExecuteSingletonDesignPattern();
 */
 
 /*
- FactoryClientCode factoryClientCode = new FactoryClientCode();
+FactoryClientCode factoryClientCode = new FactoryClientCode();
 factoryClientCode.ExecuteFactoryDesignPattern();
 */
 
+/*
+ * Seperate numbers and characters from a string (word)
 SeperateCharAndNum sepObj = new SeperateCharAndNum();
 sepObj.PrintStrings();
+*/
 
+/*
+SecondHighestNum shnObj = new SecondHighestNum();
+shnObj.SecondHighestNumberinList();
+shnObj.SecondHighestNuminArray();
+*/
+
+ChildClass1 cc1 = new ChildClass1();
+//cc1.getClassDetails();
+//cc1.getParentInterfaceDetails();
+cc1.GetAbstractParentClassDetails();
 
 
 Console.ReadKey();
