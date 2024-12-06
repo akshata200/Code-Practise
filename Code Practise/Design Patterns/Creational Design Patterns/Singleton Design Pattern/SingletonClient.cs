@@ -12,7 +12,7 @@ namespace Code_Practise.Design_Patterns.Creational_Design_Patterns.Singleton_Des
          * but yes, as name suggests, in Singleton class, we create object of class only once
          * its different from declaring class as static, as in static class we don't create object
          * we call class methods using class name itself
-         * here we ensure single object creation by making class Private and having static method to create object/ instance
+         * here we ensure single object creation by making constructor Private and having static method to create object/ instance
          */
 
         public void ExecuteSingletonDesignPattern()
